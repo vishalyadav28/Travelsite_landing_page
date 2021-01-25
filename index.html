@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel</h2>
+                <div class="toggle">
+
+                </div>
+            
+        </header>
+        <video src="video/Drone_photage.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Begin</h2>
+            <h3>Explore Everything</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ex nihil iure sit voluptate ab quae similique, obcaecati sunt maxime quaerat numquam labore asperiores et repellat. Consectetur animi deleniti totam?
+            
+            </p>
+            <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/twitter (1).png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+        </ul>
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+    </div>
+</body>
+</html>
